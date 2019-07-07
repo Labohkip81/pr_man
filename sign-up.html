@@ -1,7 +1,6 @@
 ﻿<!doctype html>
 <html lang="en">
 
-<!-- Mirrored from thememakker.com/templates/oreo/realestate/html/light/sign-up.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Jun 2019 15:26:17 GMT -->
 <head>
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -10,7 +9,7 @@
 <meta name="author" content="Thememakker">
     <meta name="description" content="Responsive Bootstrap 4 and web Application ui kit.">
 
-    <title>:: Oreo RealEstate :: Sign Up</title>
+    <title>:: Swft_Management :: Sign Up</title>
     <!-- Favicon-->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <!-- Custom Css -->
@@ -25,7 +24,7 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-transparent">
     <div class="container">        
         <div class="navbar-translate n_logo">
-            <a class="navbar-brand" href="javascript:void(0);" title="" target="_blank">Oreo</a>
+            <a class="navbar-brand" href="javascript:void(0);" title="" target="_blank">Swft</a>
             <button class="navbar-toggler" type="button">
                 <span class="navbar-toggler-bar bar1"></span>
                 <span class="navbar-toggler-bar bar2"></span>
@@ -79,45 +78,45 @@
                         <h5>Sign Up</h5>
                         <span>Register a new membership</span>
                     </div>
-                    <div class="content">                                                
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Enter User Name">
-                            <span class="input-group-addon">
-                                <i class="zmdi zmdi-account-circle"></i>
-                            </span>
+                    <div class="content">   
+                     <form id="form_validation" method="POST">                           
+                        <div class="form-group form-float">
+                            <input type="text" class="form-control" placeholder="Enter User Name" name="name" required>
                         </div>
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Enter Email">
-                            <span class="input-group-addon">
-                                <i class="zmdi zmdi-email"></i>
-                            </span>
+                        <div class="form-group form-float">
+                            <input type="Email" class="form-control" placeholder="Enter Email" name="Email" required>
+                            
                         </div>
-                        <div class="input-group">
-                            <input type="password" placeholder="Password" class="form-control" />
-                            <span class="input-group-addon">
-                                <i class="zmdi zmdi-lock"></i>
-                            </span>
+                        <div class="form-group form-float">
+                            <input type="password" placeholder="Password" class="form-control" name="password" minlength="6" required />
+                            
                         </div>                        
-                    </div>
                     <div class="checkbox">
                             <input id="terms" type="checkbox">
                             <label for="terms">
                                     I read and agree to the <a href="javascript:void(0);">terms of usage</a>
                             </label>
                         </div>
-                    <div class="footer text-center">
-                        <a href="index-2.html" class="btn btn-primary btn-round btn-lg btn-block waves-effect waves-light">SIGN UP</a>                        
+                        <div class="footer text-center">
+                        <a href="index-2.html" class="btn btn-primary btn-round btn-lg btn-block waves-effect waves-light" >SIGN UP</a> 
+                                        
                     </div>
-                </form>
+                   <!--  <form action="/index-2.html">
+                        <input type="submit" class="btn btn-primary btn-round btn-lg btn-block waves-effect waves-light" name="SUBMIT" onclick="window.location.replace('index-2.html')">
+                    </form> -->
+                          
+                     </form>                  
+                    </div>
+               
             </div>
         </div>
     </div>
-    <footer class="footer">
+   <footer class="footer">
         <div class="container">
             <nav>
                 <ul>
-                    <li><a href="http://thememakker.com/contact/" target="_blank">Contact Us</a></li>
-                    <li><a href="http://thememakker.com/about/" target="_blank">About Us</a></li>
+                    <li><a href="#" target="_blank">Contact Us</a></li>
+                    <li><a href="#" target="_blank">About Us</a></li>
                     <li><a href="javascript:void(0);">FAQ</a></li>
                 </ul>
             </nav>
@@ -126,7 +125,7 @@
                 <script>
                     document.write(new Date().getFullYear())
                 </script>,
-                <span>Designed by <a href="http://thememakker.com/" target="_blank">ThemeMakker</a></span>
+                <span>Designed by <a href="#" target="_blank"> Swft_Management</a></span>
             </div>
         </div>
     </footer>
@@ -142,5 +141,4 @@
 </script>
 </body>
 
-<!-- Mirrored from thememakker.com/templates/oreo/realestate/html/light/sign-up.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Jun 2019 15:26:17 GMT -->
 </html>
